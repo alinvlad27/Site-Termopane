@@ -1,0 +1,875 @@
+
+@viewport {
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
+
+@-ms-viewport {
+  width: extend-to-zoom;
+  zoom: 1.0;
+}
+
+body {
+  margin: 0;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+}
+
+
+/*---------------------------------------------------------  FIRST PAGE (1) ---------------------------------------------------------*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  background-color: rgb(255, 255, 255)
+}
+
+
+    /*-- Fundalul la prima pagina (CSS) --*/
+  #fundal {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
+            url('./assets/images/reparatii-termopane.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 0 5px 2px #282a2d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    
+  }
+    /*---------------------------------*/
+
+
+    /*---- Bara de navigatie (CSS) ----*/
+
+  .topnav {
+    /*background-color: rgb(245, 237, 237);*/
+    background-color: rgb(255, 255, 255, 0.1);
+    overflow: hidden;
+    font-family: 'Mitr', sans-serif;
+    position: fixed;
+    font-weight: bold;
+  }
+  
+  .topnav a {
+    float: left;
+    color: rgb(168, 168, 168);
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-bottom: 0px;
+  }
+  
+  .topnav a:hover {
+    color: rgb(0, 107, 45);
+  }
+  
+  .topnav a:hover#shoopingcart {
+    background-color: rgb(0, 107, 45, 0.4);
+  }
+
+  .topnav a.active {
+    background-color: rgb(245, 237, 237);
+    color: rgb(0, 0, 0);
+  }
+
+  .foodfactory {
+    margin-right: 330px; 
+  }
+
+  .logo_foodfactory {
+    margin-bottom: -9px;
+  }
+
+  #shoopingcart {
+    padding: 1rem 1.56rem;
+    margin-left: 337px;
+    background-color:rgb(0, 107, 45);
+    border-radius: 200px;
+    color: rgb(168, 168, 168);
+    height: 28px;
+    margin-top: 8.5px; 
+  } 
+
+  
+    /*-------------------------------------*/
+
+
+    /*-- Titlul si mesajul din box (CSS) --*/
+
+  .dialog_box {
+    padding: 4.5rem 3rem;
+    margin: 2rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-bottom: 200px;
+    margin-left: 535px;
+    margin-right: 500px;
+    margin-top: 200px;
+    border-radius: 70px;
+  } 
+
+  .dialog_box a:hover.our_menu {
+    background-color: rgb(0, 107, 45, 0.4);
+  }
+
+  .dialog_titlu {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Mitr', sans-serif;
+    color: rgb(0, 107, 45);
+    margin-left: 70px;
+    margin-top: 8px;
+  }
+
+  .dialog_paragraf {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color:rgb(228, 205, 205);
+    line-height: 1.4;
+    text-align: center;
+    color: rgb(185, 185, 185);
+    font-family: 'Raleway', sans-serif;
+    margin-left: 53px;
+    margin-top: -10px;
+  }
+
+  .our_menu {
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 140px;
+    background-color:rgb(0, 107, 45);
+    border-radius: 100px;
+    text-decoration: none;
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px 50px;
+    font-size: 17px;
+    margin-bottom: 0px;
+  }
+    /*------------------------------*/
+
+    /*-------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*------------------------------------------------------  THE SECOND PAGE (2) --------------------------------------------------------------*/
+
+  /*-- Numarul de telefon, locatia si ora. (CSS) --*/
+p {
+  display: inline-block;
+}
+  
+.contact {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.color_orange {
+  color: rgb(0, 107, 45);
+  font-weight: 600;
+}
+
+.tell {
+  font-family: 'Raleway', sans-serif;
+  margin-right: 100px;
+}
+  
+#locatia {
+  margin-right: 100px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#ora {
+  font-family: 'Raleway', sans-serif;
+}
+
+.fa-phone-alt {
+  width: 20px;
+}
+
+.fa-map-marker-alt {
+  width: 20px;
+}
+
+.fa-clock {
+  width: 20px;
+}
+
+/*---------------------------------------------------*/
+
+
+/*-- Titltul si mesajul din box din pagina a 2 a (CSS) --*/
+
+#fundal_t {
+  /*background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  url('./assets/images/pink-orange-color-solid-background-1920x1080.png'), url('./assets/images/about.jpg');*/
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+  url('./assets/images/bc6fd2cf-c208-4f01-98ff-1059b00a780f.jpg');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100%;
+  background-position: left top, right top;
+  box-shadow: 0 0 5px 2px #282a2d;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /*width: 98.9vw;
+  height: 80vh;*/
+  width: 98.8vw;
+  height: 102vh;
+}
+
+.dialog_box_t {
+  padding: 1.5rem 5rem;
+  margin: 2rem;
+  background-color: rgb(245, 237, 237);
+  margin-bottom: 300px;
+  margin-left: 400px;
+  margin-right: 350px;
+  margin-top: 160px;
+  border-radius: 50px;
+  box-shadow: 3px 3px 15px black;
+}
+
+.dialog_titlu_t {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'Mitr', sans-serif;
+  color: rgb(48, 34, 34);
+  margin-left: 10px;
+}
+
+.dialog_paragraf_t {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color:rgb(228, 205, 205);
+  line-height: 1.4;
+  color: rgb(0, 0, 0);
+  font-family: 'Raleway', sans-serif;
+  margin-left: 30px;
+}
+
+.our_menu_t {
+  overflow: hidden;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 210px;
+  background-color:rgb(0, 107, 45);
+  border-radius: 100px;
+  text-decoration: none;
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 50px;
+  font-size: 17px;
+  margin-bottom: 0px;
+}
+
+.dialog_box_t a:hover.our_menu_t {
+  background-color: rgb(0, 107, 45, 0.8);
+}
+
+/*---------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------  THE THIRD PAGE (3) ---------------------------------------------------------*/
+
+.container_t {
+  width: 98.9vw;
+  height: 103vh;
+  background-color: rgb(255, 236, 236)
+}
+
+
+  /*-- Titlul si paragraful din pagina a 3 a (CSS) --*/
+#titlu_para {
+  text-align: center;
+  color: rgb(48, 34, 34);
+}
+
+.titlu_tt {
+  font-family: 'Mitr', sans-serif;
+  font-size: 40px;
+  margin-bottom: -30px;
+  margin-top: 60px;
+  font-weight: 600;
+}
+
+.paragraf_tt {
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  margin-bottom: 100px;
+}
+/*------------------------------*/
+
+
+  /*-- Meniu box --*/
+.cont_t {
+  margin-bottom: 190px;
+  margin-top: 30px;
+  margin-left: 230px;
+}
+
+.healthy_meal {
+  color: rgb(48, 34, 34);
+  font-weight: 600;
+  margin-left: -110px;
+  font-size: 20px;
+  font-family: 'Mitr', sans-serif;
+}
+
+.fast_food {
+  color: rgb(48, 34, 34);
+  font-weight: 600;
+  margin-left: -90px;
+  font-size: 20px;
+  font-family: 'Mitr', sans-serif;
+}
+
+.delicious_coffee {
+  color: rgb(48, 34, 34);
+  font-weight: 600;
+  margin-left: -120px;
+  font-size: 20px;
+  font-family: 'Mitr', sans-serif;
+}
+
+#meniu a:hover.sub_t {
+  color: rgba(196, 55, 0);
+}
+
+#meniu {
+  font-weight: bold;
+  font-size: 12px;
+  margin-right: 100px;
+  margin-top: 30px;
+  margin-bottom: -20px;
+  font-family: 'Raleway', sans-serif;
+  border: 2px solid #ffe1e1;
+  padding: 70px 30px;
+  background-color:rgb(255, 255, 255)
+}
+
+.imageicon {
+  margin-bottom: 50px;
+  margin-left: 70px;
+  width: 80px;
+  height: 80px;
+}
+/*--------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------  THE FOURTH PAGE (4) ---------------------------------------------------------*/
+
+  /*-- Imaginea de fundal --*/
+#container_tt {
+  background-image: url('./assets/images/rm218batch5-mynt-13.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0 0 5px 2px #282a2d;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 98.90vw;
+  height: 101.5vh;
+}
+  /*-----------------------*/
+
+
+  /*-- Titlul si paragraful din pagina a 4 a --*/
+.titlu_most {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'Mitr', sans-serif;
+  color: rgb(255, 255, 255);
+  margin-left: 300px;
+  margin-bottom: 20px;
+}
+
+.paragraf_most {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  margin-left: 300px;
+  margin-bottom: 900px;
+  color: rgba(240, 240, 240, 0.5);
+  font-family: 'Raleway', sans-serif;
+}
+
+.full_menu {
+  overflow: hidden;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 1000px;
+  margin-right: 340px;
+  background-color:rgb(0, 107, 45);
+  border-radius: 70px;
+  text-decoration: none;
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px 30px;
+  font-size: 13px;
+  margin-top: -1000px;
+  margin-bottom: 600px;
+  font-weight: bold;
+}
+
+#container_tt a:hover.full_menu {
+  background-color: rgb(0, 107, 45, 0.4);
+}
+/*--------------------------------*/
+
+
+  /*-- Meniul in box --*/
+.meniul_full {
+  margin-bottom: 500px;
+  margin-top: -370px;
+  margin-left: 220px;
+}
+
+.salad {
+  color: rgb(3, 3, 3);
+  font-weight: 900;
+  margin-right: -10px;
+  font-size: 25px;
+  font-family: 'Mitr', sans-serif;
+  
+  
+}
+
+.sandwich {
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  margin-right: -20px;
+  font-size: 25px;
+  font-family: 'Mitr', sans-serif;
+}
+
+.chicken_strips {
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  margin-right: -80px;
+  margin-left: -80px;
+  font-size: 25px;
+  font-family: 'Mitr', sans-serif;
+}
+
+#meniu_box {
+  font-size: 12px;
+  margin-right: 100px;
+  margin-top: -150px;
+  margin-bottom: -20px;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 10px;
+  border: 2px solid #ffe1e1;
+  padding: 50px 5px;
+  text-align: center;
+  background-color:rgb(255, 255, 255)
+}
+
+#meniu_box_t {
+  font-size: 12px;
+  margin-right: 100px;
+  margin-top: -150px;
+  margin-bottom: -20px;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 10px;
+  border: 2px solid #ffe1e1;
+  padding: 50px 0px;
+  text-align: center;
+  background-color:rgb(255, 255, 255)
+}
+
+#meniu_box_tt {
+  font-size: 12px;
+  margin-right: 100px;
+  margin-top: -150px;
+  margin-bottom: -20px;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 10px;
+  border: 2px solid #ffe1e1;
+  padding: 50px 30px;
+  text-align: center;
+  background-color:rgb(255, 255, 255)
+}
+
+.mbimg {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  
+}
+
+.mbimg_t {
+  border-radius: 100px;
+  margin-bottom: 50px;
+  margin-left: -0px;
+  width: 210px;
+  height: 210px;
+  
+}
+
+.mbimg_tt {
+  border-radius: 100px;
+  margin-bottom: 50px;
+  margin-left: 0px;
+  width: 210px;
+  height: 210px;
+}
+
+.mbimg_ttt {
+  border-radius: 100px;
+  margin-bottom: 50px;
+  margin-left: -10px;
+  width: 210px;
+  height: 210px;
+}
+
+.order_now {
+  color: rgb(233, 117, 71);
+  font-weight: bold;
+  border-bottom: 3px solid rgb(233, 117, 71);;
+}
+
+.price {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  margin-top: 135px;
+  margin-left: -50px;
+  overflow: hidden;
+  font-family: cursive;
+  background-color:rgb(233, 117, 71);
+  border-radius: 100px;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 14px;
+}
+/*----------------------------------*/
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------  THE FIFTH PAGE (5) ---------------------------------------------------------*/
+
+#container_a {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 98.80vw;
+  height: 120vh;
+}
+
+  /*-- Imaginea cu pizza --*/
+.img_pzz {
+  width: 30vw;
+  height: 40vw;
+  margin-top: 150px;
+  margin-left: 230px;
+  border-radius: 25px;
+  border: 5px solid rgb(0, 107, 45) 
+}
+  /*--------------------*/
+
+
+  /*-- Titlul si paragraful din pagina a 5 a (CSS) --*/
+.titlu_b {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'Mitr', sans-serif;
+  color: rgb(48, 34, 34);
+  margin-left: 850px;
+  margin-top: -640px;
+  margin-bottom: 650px;
+}
+
+.paragraf_bb {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  margin-left: 850px;
+  margin-top: -640px;
+  margin-bottom: 10px;
+  color: rgb(48, 34, 34);
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+  /*------------------------------------------*/
+
+
+  /*------ Formularul -------*/
+#inscriere {
+  margin-left: -17px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25rem;
+  padding: 2rem 3rem;
+}
+
+input {
+  width: 97%;
+  height: 1.75rem;
+  background-color: #ffffff;
+  border-radius: 15px;
+  border: 3px solid #e2e2e2;
+  padding: 5px;
+}
+
+
+.number_of_guests:hover {
+  border: 3px solid rgb(0, 107, 45);
+}
+.day_month_year:hover {
+  border: 3px solid rgb(233, 117, 71);
+}
+.breakfast:hover {
+  border: 3px solid rgb(0, 107, 45);
+}
+.phone_number:hover {
+  border: 3px solid rgb(233, 117, 71);
+}
+.send_message:hover {
+  border: 3px solid rgb(0, 107, 45);
+}
+
+
+.number_of_guests {
+  margin-bottom: 20px;
+  margin-left: 810px;
+}
+
+.day_month_year {
+  margin-left: 810px;
+}
+
+.phone_number {
+  margin-top: 20px;
+  margin-left: 810px;
+}
+
+.send_message {
+  margin-top: 20px;
+  height: 150px;
+  margin-left: 810px;
+}
+
+
+.input__name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input__name__elements {
+  width: 45%;
+}
+
+.message {
+  height: 25px;
+  border: 1px solid #e2e2e2;
+  border-radius: 15px;
+  display: flex;
+  align-items: flex-start;
+  background-color: #f80a0a77;
+}
+
+.date {
+  width: 400px;
+}
+
+.breakfast {
+  width: 202%;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  border: 3px solid #e2e2e2;
+  padding: 2px;
+  height: 40px;
+  margin-left: 810px;
+  margin-top: 20px;
+}
+
+
+.form__button {
+  overflow: hidden;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 810px;
+  background-color: rgb(0, 107, 45);
+  border-radius: 100px;
+  border: 3px solid rgb(0, 107, 45);
+  text-decoration: none;
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 50px;
+  font-size: 17px;
+  margin-top: 30px;
+  margin-right: -810px;
+}
+
+.form__button:hover {
+  background-color: rgb(0, 107, 45, 0.8);
+}
+  /*--------------------------------*/
+
+
+  /*--- Bara de la sfarsitul paginii ---*/
+.footer {
+  width: 98.90vw;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(0, 71, 30);
+  box-shadow: 0 0 5px 2px rgb(0, 107, 45);
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 12px;
+  font-weight: 180;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+
+.footer__element {
+  flex: 1;
+  text-align: center;
+}
+
+.myname {
+  color: rgb(0, 158, 53);
+  font-weight: bold;
+}
+
+.hearth {
+  color: rgb(248, 0, 0);
+}
+
+.footer__copyright{
+  color: rgb(245, 237, 237);
+}
+
+.mail{
+  color: red;
+}
+/*---------------------------------*/
+
+@media (max-width:700px){
+  .topnav{
+    margin-left: -0px;
+    width: 150px;
+    background-color: rgba(85, 85, 85, 0.1);
+    position:absolute;
+    
+  }
+
+  #shoopingcart {
+    margin-left: -1000px;
+  }
+
+  .term {
+    font-weight: bold;
+    color: rgb(0, 153, 51);
+  }
+
+  .foodfactory{
+    margin-left: -1000px;
+  }
+
+
+  .dialog_box {
+    margin-left: 160px;
+    margin-top: 100px;
+    width: 140px;
+    height: 2000px;
+  }
+
+  .dialog_titlu {
+    margin-left: -39px;
+    margin-top: -50px;
+  }
+
+  .dialog_paragraf {
+    margin-left: 0px;
+    
+  }
+
+  .our_menu {
+    margin-left: 0px;
+  }
+
+
+
+
+  .contact {
+    margin-left: 105px;
+  }
+
+  #fundal_t{
+    height: 201px;
+  }
+
+  .dialog_box_t{
+    margin-left: 120px;
+    height: 100px;
+    margin-top: 25px;
+    background-color:rgb(255, 255, 255, 0.0);
+  }
+
+  .dialog_titlu_t{
+    font-size: 20px;
+    margin-left: -45px;
+    margin-top: -40px;
+    color: rgb(228, 205, 205, 0.4);
+  }
+  .dialog_paragraf_t{
+    margin-left: -1000px;
+    
+  }
+  .our_menu_t{
+    margin-left: -1000px;
+  }
+
+
+
+
+  .titlu_most {
+    font-size: 15px;
+    margin-left: 100px;
+  }
+  .paragraf_most {
+    font-size: 10px;
+    margin-left: 100px;
+  }
+  .meniul_full{
+    margin-left: 90px;
+   
+    
+  }
+  .salad{
+    
+  }
+  
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
